@@ -1,5 +1,6 @@
 header{
     height: 90vh;
+    overflow: hidden;
     background-color: #88D498;
     padding: 40px;
 }
@@ -47,18 +48,8 @@ header{
 .devices a{
     color: #ffffff;
 }
-.header-arrow{
-    height: 30px;
-    width: 30px;
-    background: #88D498;
-    position: relative;
-    transform: rotate(45deg);
-    left: 50%;
-    bottom: 20px;
-}
-.header-image{
+.header-image-container{
     position: absolute;
-    top: -100px;
-    right: -280px;
-    transform: rotate(-30deg);
+    top: 0px;
+    right: 0px;
 }
