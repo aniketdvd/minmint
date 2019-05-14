@@ -51,7 +51,7 @@ header{
 }
 .header-image-container{
     position: absolute;
-    top: 0px;w
+    top: 0px;
     z-index: 99;
     right: 0px;
 }

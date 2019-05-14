@@ -21,8 +21,8 @@ main{
     width: 120px;
     position: relative;
     top: 24px;
-    left: 160px;
-    background: #000000;
+    left: 100px;
+    background: #3c3c3c;
 }
 
 .main-screen{
@@ -46,7 +46,6 @@ main{
 .screen-01, .screen-02, .screen-03{
     font-size: 60px;
     margin-bottom: 30px;
-    left: -30px;
     position: relative;
     font-weight: 900;
     color: #00000033;
@@ -54,13 +53,15 @@ main{
 
 .image-01{
     width: 50%;
+    position: absolute;
+    transform: scale(1.1);
+    left: -10px;
     float: left;
     height: 100%;
     overflow: hidden;
     background-image: url('./../images/01.jpg.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 70px; 
     background-position-x: 0px;
 }
 
@@ -75,18 +76,19 @@ main{
 .image-02{
     width: 50%;
     float: right;
+    position: relative;
+    transform: scale(1.1);
+    right: 20px;
     height: 100%;
     overflow: hidden;
     background-image: url('./../images/01.jpg.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 70px; 
     background-position-x: 0px;
 }
 
 .content-02{
     width: 45%;
-    padding-left: 30px;
     position: relative;
     text-align: right;
     margin-top: 10%;
@@ -96,13 +98,15 @@ main{
 
 .image-03{
     width: 50%;
+    position: absolute;
+    transform: scale(1.1);
+    left: -10px;
     float: left;
     height: 100%;
     overflow: hidden;
     background-image: url('./../images/01.jpg.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 70px; 
     background-position-x: 0px;
 }
 
