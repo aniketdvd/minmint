@@ -1,29 +1,115 @@
 main{
-    padding: 40px;
     z-index: 0;
+    padding: 40px;
+    padding-left: 80px
 }
+
+.app-features{
+    width: 100%;
+}
+
 .app-features h2{
     float: left;
+    font-weight: 500;
+    font-size: 40px;
 }
+
 .s-hr{
     margin-left: 200px;
     height: 4px;
     border-radius: 100pt;
     width: 120px;
     position: relative;
-    top: -18px;
-    left: 20px;
+    top: 24px;
+    left: 160px;
     background: #000000;
 }
+
 .main-screen{
     height: 100vh;
+    width: 100%;
     overflow: hidden;
 }
-.discover-new-image{
-    width: 55%;
-    overflow: hidden;
+
+.main-screen p{
+    line-height: 36px;
+    color: #444444;
+    margin-bottom: 40px;
 }
-.discover-new-content{
+.main-screen h2{
+    margin-bottom: 50px;
+}
+.main-screen a{
+    text-decoration: none;
+    color: #88D498;
+}
+.screen-01, .screen-02, .screen-03{
+    font-size: 60px;
+    margin-bottom: 30px;
+    left: -30px;
+    position: relative;
+    font-weight: 900;
+    color: #00000033;
+}
+
+.image-01{
+    width: 50%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('./../images/01.jpg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 70px; 
+    background-position-x: 0px;
+}
+
+.content-01{
     width: 45%;
+    position: relative;
+    margin-top: 10%;
+    float: right;
+    height: 100%;
+}
+
+.image-02{
+    width: 50%;
+    float: right;
+    height: 100%;
     overflow: hidden;
+    background-image: url('./../images/01.jpg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 70px; 
+    background-position-x: 0px;
+}
+
+.content-02{
+    width: 45%;
+    padding-left: 30px;
+    position: relative;
+    text-align: right;
+    margin-top: 10%;
+    float: left;
+    height: 100%;
+}
+
+.image-03{
+    width: 50%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('./../images/01.jpg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 70px; 
+    background-position-x: 0px;
+}
+
+.content-03{
+    width: 45%;
+    position: relative;
+    margin-top: 10%;
+    float: right;
+    height: 100%;
 }
