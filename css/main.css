@@ -1,0 +1,29 @@
+main{
+    padding: 40px;
+    z-index: 0;
+}
+.app-features h2{
+    float: left;
+}
+.s-hr{
+    margin-left: 200px;
+    height: 4px;
+    border-radius: 100pt;
+    width: 120px;
+    position: relative;
+    top: -18px;
+    left: 20px;
+    background: #000000;
+}
+.main-screen{
+    height: 100vh;
+    overflow: hidden;
+}
+.discover-new-image{
+    width: 55%;
+    overflow: hidden;
+}
+.discover-new-content{
+    width: 45%;
+    overflow: hidden;
+}
