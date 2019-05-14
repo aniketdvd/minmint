@@ -50,7 +50,7 @@ header{
 }
 .header-image-container{
     position: absolute;
-    top: 0px;
+    top: 0px;w
     z-index: 99;
     right: 0px;
 }
