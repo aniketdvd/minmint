@@ -1,7 +1,7 @@
 main{
     z-index: 0;
     padding: 40px;
-    padding-left: 80px
+    padding-left: 80px;
 }
 
 .app-features{
@@ -112,4 +112,53 @@ main{
     margin-top: 10%;
     float: right;
     height: 100%;
+}
+
+.strip{
+    color: #ffffff;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: absolute;
+    margin-left: -80px;
+    background-color: #3C3C3C;
+    overflow: hidden;
+    height: 200px;
+}
+.prop-container{
+    text-align: center;
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+.prop-container a{
+    text-decoration: none;
+    color: #3c3c3c;
+    background: #88D498;
+    text-align: center;
+    position: relative;
+    padding: 25px;
+    top: 42.5%;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 5px 5px 20px #00000055;
+    border-radius: 40pt;
+}
+.val, .val-of{
+    text-align: center;
+}
+.val-of{
+    font-size: 14px;
+}
+.val{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.icon-b{
+    position: relative;
+    top:35px;
+    align-content: center; 
+    height: 50px;
+    width: 50px;
 }
