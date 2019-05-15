@@ -9,7 +9,6 @@ main{
 
 .app-features h2{
     float: left;
-    font-weight: 500;
     font-size: 40px;
 }
 
@@ -20,6 +19,16 @@ main{
     position: relative;
     top: 24px;
     margin-left: 300px;
+    background: #3c3c3c;
+}
+
+.s-hr-2{
+    height: 4px;
+    border-radius: 100pt;
+    width: 120px;
+    position: relative;
+    top: 24px;
+    margin-left: 350px;
     background: #3c3c3c;
 }
 
@@ -133,12 +142,14 @@ main{
     overflow: hidden;
     height: 200px;
 }
+
 .prop-container{
     text-align: center;
     width: 25%;
     float: left;
     height: 100%;
 }
+
 .prop-container a{
     text-decoration: none;
     color: #3c3c3c;
@@ -152,21 +163,73 @@ main{
     box-shadow: 5px 5px 20px #00000055;
     border-radius: 40pt;
 }
+
 .val, .val-of{
     text-align: center;
 }
+
 .val-of{
     font-size: 14px;
 }
+
 .val{
     margin-top: 60px;
     margin-bottom: 10px;
     font-size: 30px;
 }
+
 .icon-b{
     position: relative;
     top:35px;
     align-content: center; 
     height: 50px;
     width: 50px;
+}
+
+.feedback-strip{
+    margin-top: 80px;
+    width: 100%;
+}
+
+.feedback-container{
+    background: url('./../images/quote.svg');
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position-x: 20px;
+    background-position-y: 30px;
+    font-size: 20px;
+    overflow: hidden;
+    border-radius: 5pt;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 20px #00000021;
+    float: left;
+    width: 20%;
+    margin: 2%;
+    height: 300px;
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.user-profile img{
+    height: 40px;
+    width: 40px;
+    float: left;
+    border-radius: 100pt;
+    margin-top: 40px;
+}
+
+.user-profile .username{
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 16px;
+    float: left;
+}
+
+.user-profile .category{
+    font-size: 12px;
+    font-weight: 300;
+    float: left;
+    margin-top: 0px;
 }
