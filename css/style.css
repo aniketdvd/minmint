@@ -11,4 +11,8 @@
 body{
     font-family: inter;
     color: #3c3c3c;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
 }
+
+body::-webkit-scrollbar {width: 0 !important}
