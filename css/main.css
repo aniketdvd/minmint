@@ -31,6 +31,15 @@ main{
     margin-left: 350px;
     background: #3c3c3c;
 }
+.s-hr-3{
+    height: 4px;
+    border-radius: 100pt;
+    width: 120px;
+    position: relative;
+    top: 24px;
+    margin-left: 280px;
+    background: #3c3c3c;
+}
 
 .main-screen{
     height: 100vh;
@@ -187,7 +196,7 @@ main{
 }
 
 .feedback-strip{
-    margin-top: 80px;
+    margin-top: 10%;
     width: 100%;
 }
 
@@ -232,4 +241,35 @@ main{
     font-weight: 300;
     float: left;
     margin-top: 0px;
+}
+
+.app-screen-container{
+    margin-top: 10%;
+    background: #88D498;
+    border-radius: 10pt;
+}
+
+.app-screens img{
+    width: 75%;
+    position: relative;
+    left: 20px;
+}
+
+.app-screens--prev{
+    left: 20px;
+}
+
+.app-screens--next{
+    right: 20px;
+}
+
+.n-button{
+    top: 50%;
+    z-index: 99;
+    position: absolute;
+    float: left;
+    border: 0;
+    padding: 20px;
+    border-radius: 100pt;
+    font-size: 10px;
 }
