@@ -273,3 +273,65 @@ main{
     border-radius: 100pt;
     font-size: 10px;
 }
+
+
+.center{
+    text-align: center;
+}
+
+.center h1{
+    font-size: 50px;
+}
+
+.center p{
+    padding-top: 20px;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-bottom: 5%;
+}
+
+.wordpedia-icon{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 10pt;
+    box-sizing: content-box;
+    background: linear-gradient(45deg, #88D498, #88D49833);
+}
+
+.download-links a{
+    margin: auto;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.android-download-button{
+    background: #88D498;
+    color: #393939;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40pt;
+    text-decoration: none;
+    box-shadow: 4px 4px 20px #00000033;
+    margin-right: 20px;
+}
+
+.ios-download-button{
+    background: #393939;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40pt;
+    box-shadow: 4px 4px 20px #00000033;
+}
